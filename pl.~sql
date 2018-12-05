@@ -1,0 +1,6 @@
+declare
+  message varchar2(20) := 'hello world!';
+begin
+  dbms_output.put_line(message);
+  -- dbms_output.put(message);
+end;
